@@ -23,7 +23,9 @@ after that, run the `quantitative_momentum_strategy.py` on your machine to initi
 
 ## FYI: the Json response object returned from IEX Cloud Stock API
 sample API request url: 
-`https://cloud.iexapis.com/stable/stock/market/batch/?types=stats,quote&symbols=AAPL&token=[Your Token]`
+```
+https://cloud.iexapis.com/stable/stock/market/batch/?types=stats,quote&symbols=AAPL&token=[Your Token]
+```
 
 sample API response:
 ```json
